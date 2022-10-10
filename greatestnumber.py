@@ -1,3 +1,4 @@
+#TO FIND GREATEST AMONG TWO NUMBERS
 n1= int(input("input your first number: "))
 n2= int(input("input your second number: "))
 
