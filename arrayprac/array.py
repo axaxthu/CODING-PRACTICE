@@ -5,7 +5,7 @@ print(a[7])
 print(len(a))
 
 
-x="ananthu","namit","puru"
+x="ananthu","namit","puru" 
 #printing a particular index
 print(x[1])
 #printing the length of x
@@ -28,4 +28,14 @@ else:
 if "rum" not in y: #rum is actually there in "RUMour"
     print("yes")
 else :
-    print("no")    
+    print("no")   
+#to print from 2 ranges
+print(y[2:8]) #it is printed from index 2 to index 7 
+print(y[:7]) #it is printed from index 0 to 6
+print(y[:]) #to print from index 0 to index n-1(the whole string is printed)
+
+#ptrint using negative index(starts from -1:which is the last element)
+print(a[-5:-2])
+
+
+
